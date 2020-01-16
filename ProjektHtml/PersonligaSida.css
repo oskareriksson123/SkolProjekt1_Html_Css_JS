@@ -1,0 +1,105 @@
+
+
+.ourText{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10%;
+ 
+}
+
+#info{
+width: 100%;
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+
+#skillsEgen{
+
+    width: 65%;
+    height: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    }
+
+    #profilbild{
+
+        display: flex;
+        height: 30%;
+        width: 20%;
+        margin-top: 10%;
+       
+
+
+    }
+
+#profildiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#content{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+
+}
+
+    @media (min-width: 768px) {
+        
+        #info{
+            flex-direction: row;
+            height: 100%;
+        }
+
+        #content{
+            width: 50%;
+            height: 100%;
+
+        }
+
+        #profildiv{
+
+            width: 50%;
+            height:100%;
+        }
+
+
+        #skillsEgen{
+            width: 90%;
+            height: 50%;
+            
+       }
+
+       #profilbild{
+        margin: auto;
+        height: 60%;
+        width: 50%;
+       }
+
+       .ourText{
+        margin: auto;
+        
+
+
+       }
+    }

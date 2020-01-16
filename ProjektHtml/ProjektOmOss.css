@@ -1,0 +1,86 @@
+
+
+#bakgrund{
+    display: flex;
+    height: 85%;
+    width: 100%;
+    flex-direction: column;
+   
+}
+
+#top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+#bottomOmOss{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fornamn{
+padding: 1em;
+}
+
+.selected{
+text-decoration: underline;
+padding: 1em;
+
+}
+
+#skill{
+
+width: 65%;
+height: 55%;
+
+
+}
+
+
+.ourText{
+    margin-top: 10%;
+    width: 50%;
+    margin-bottom: 5%;
+    
+}
+
+.fornamn:hover{
+
+    cursor: pointer;
+
+}  
+
+.selected:hover{
+
+    cursor:pointer;
+}
+
+@media (min-width: 768px) {
+
+    #bottomOmOss{  
+        flex-direction: row;
+        
+    }
+
+    #skill{
+
+        height: 80%;
+        width: 50%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+
+    .ourText{
+        margin-bottom: 10%;
+        margin-left: 15%;
+        width: 20%;
+
+
+    }
+}

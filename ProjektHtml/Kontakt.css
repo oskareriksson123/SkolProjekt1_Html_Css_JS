@@ -1,0 +1,145 @@
+
+
+#kontaktHuvudDiv{
+    width: 100%;
+    height: 85%;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background-color: black;
+}
+
+#kontaktForm{
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    padding: 0%;
+    box-shadow: 0 0 0.2em;
+    float: left;
+    padding-top: 1%;
+    
+    background-color: rgb(87, 85, 85);
+}
+@media only screen and (min-width: 768px) {
+    #kontaktForm {
+        width: 35%;
+        margin-left: 30.5%;
+        margin-top: 1%;
+        padding: 2%;
+        border-radius: 1em;
+
+    }
+    
+}
+
+#karta{
+    border:none;
+    margin-top: 13%;
+    display: block;
+    margin-left: 7%;
+    width: 81%;
+    margin-bottom: 5%;
+    height: 13em;
+}
+
+label,
+#namn,
+#email,
+#tel,
+span
+{
+    display: block;
+    width: 80%;
+    margin-left: 7%;
+    
+}
+
+#submit {
+    border:none;
+    float: right;
+    margin-right: 12%;
+    width: 25%;
+    height: 4em;
+    background-color: rgba(115, 185, 115, 0.815);
+    font-weight: bold;
+   
+
+}
+
+#submit:hover{
+    background-color: rgb(6, 241, 6);
+}
+
+
+#h3Kontakt{
+    text-align: center;
+    margin-top: 0;
+}
+
+label{
+    margin-bottom: 1%;
+}
+
+#meddelande {
+    resize: none;    
+    height: 5em;
+    display: block;
+    margin-left: 7%;
+    width: 80%;
+    font-size: 1em;    
+}
+
+span {
+    margin-top: 0;
+    color: red;
+    font-weight: bold;
+}
+
+.hideForm {
+    visibility: hidden;
+}
+
+#text,
+#email,
+#tel,
+#meddelande,
+#namn {
+    border: none;
+    box-shadow: none;
+    border-bottom: 0.1em solid white;
+    background-color: rgb(87, 85, 85);
+    outline: none;
+    
+}
+
+#text,
+#email,
+#tel,
+#namn{
+    margin-bottom: 0%;
+    font-size: 1.1em;
+}
+
+
+::placeholder {
+    color: white;
+}
+
+#submit.disabled, #submit.disabledn:hover {
+    background-color: red;
+    pointer-events: none;
+    
+}
+
+#namn.valid,
+#email.valid,
+#tel.valid,
+#meddelande.valid
+{
+    border-bottom: 0.1em solid rgba(115, 185, 115, 0.815);
+}
+
+#skickat{
+    color: rgba(115, 185, 115, 0.815);
+    margin-left: 7%;
+    font-weight: bold;
+}

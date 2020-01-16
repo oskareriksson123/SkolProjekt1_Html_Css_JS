@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+   
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt</title>
+<link rel="stylesheet" href="Projektcss.css">
+<link rel="stylesheet" href="Kontakt.css">
+<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <nav id="nav">
+      <div class ="loggan">
+         
+          <h3>Grupp 20!</h3>
+      </div>
+
+      <ul class="meny">
+        <li class="menyLista" > <a href="ProjektStart.html">Hem</a></li>
+                <li class="menyLista"> <a href="ProjektPortfolio.html">Portfolie</a> </li>
+                <li class="menyLista"> <a href="Kontakt.html">Kontakta oss</a> </li>
+                <li class="menyLista"> <a href="ProjektOmoss.html">Om oss</a> </li>
+      </ul>
+<!--"Hamburgaren som bara syns i mobil form!"-->     
+      <div class="scrollLista">
+      <div class="lager1"></div>
+      <div class="lager2"></div>
+      <div class="lager3"></div>
+     </div>
+
+  </nav>
+    <div id="kontaktHuvudDiv">
+       
+        <form id="kontaktForm" name ="kontaktForm">
+        <h3 id="h3Kontakt">Kontakta oss:</h3>
+
+        <label for="namn">För- & efternamn: </label> 
+        <input class="valid" type="text" id="namn" name="namn" placeholder="Ange för- och efternamn..."/>
+        <span class="hideForm" id="spanNamn">* Måste ange ett korrekt för och efternamn</span><br>
+
+        <label for ="email">E-postadress: </label> 
+        <input class="valid" type="email" id="email" name="email" placeholder="Ange e-postadress..."/>
+        <span class="hideForm" id="spanEmail">* Måste ange en korrekt e-postadress</span><br>
+
+       <label for ="tel">Telefonummer:</label> 
+        <input  class ="valid" type="tel" id="tel" placeholder="Ange mobilnummer..."/>
+        <span class="hideForm" id="spanTel">* Måste ange ett korrekt mobilnummer</span><br>
+
+        <label for="meddelande">Meddelande:</label> 
+        <textarea class="valid" id="meddelande" placeholder="Skriv ett meddelande.."></textarea>
+        <span class="hideForm" id="spanMeddelande">* Måste skicka med ett meddelande</span><br>
+
+        <input class="disabled" type="button" id="submit" value="Skicka"/>
+        <p id="skickat" class ="hideForm">Tack för att du kontaktar oss!</p>
+
+        <iframe id="karta" src="https://maps.google.com/maps?q=%C3%B6rebro%20uni&t=k&z=15&ie=UTF8&iwloc=&output=embed">
+        </iframe>
+          
+        </form>
+        
+        
+
+     </div>
+
+     <script src ="KontaktJs.js"></script>
+     <script  src ="ProjektJavascript.js" ></script>
+  </body>
+
+
+
+</html>
